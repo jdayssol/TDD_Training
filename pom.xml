@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-    <name>Effisoft :: payment</name>
+    <name>Jdayssol :: tdd</name>
 
-    <groupId>effisoft</groupId>
-    <artifactId>payment</artifactId>
+    <groupId>jdayssol</groupId>
+    <artifactId>tdd</artifactId>
     <version>1</version>
     <packaging>jar</packaging>
 
@@ -76,22 +76,4 @@
 		    <scope>test</scope>
 		</dependency>
     </dependencies>
-
-    <scm>
-        <connection>scm:git:http://01appbitbucket2.effisoft-group.com:7990/scm/effisoft/payment.git</connection>
-    </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Nexus Releases</name>
-            <url>http://fr-ass-08:8081/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Nexus Snapshots</name>
-            <url>http://fr-ass-08:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 </project>
