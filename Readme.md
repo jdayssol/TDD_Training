@@ -7,11 +7,11 @@ Ex1 Stack
 			- Object pop()
 		Stack should throw an exception if popped when empty.
 
-	Objectif :
-	Introduire une convention de nommage
-	Créer le code de production à partir des tests
-	Commencer par l’assertion
-	Conseil pour démarrer : le cas le plus simple
+	Objective:
+	Introduce a naming convention
+	Create the production code from the tests
+	Start with the assertion
+	Tip for getting started: the simplest case
 
 Ex2 Roman numeral converter
 
@@ -21,11 +21,11 @@ Ex2 Roman numeral converter
 		The code must convert those decimals
 		to their roman equivalent.
 		
-	Objectif :
-	Construire l’algorithme petit à petit
-	Retarder les traitements d’exception
-	Créer de la duplication consciemment
-	De structures simples à des structures plus compliquées
+	Objective:
+	Build the algorithm little by little
+	Delay exception handling
+	Create duplication consciously
+	From simple to more complicated structures
 
 Ex3 Leap Year
 
@@ -35,9 +35,9 @@ Ex3 Leap Year
 	Is NOT leap year if divisible by 100 but not by 400
 	Is leap year if divisible by 4
 	
-	Objectif :
-	Exprimer clairement les règles business
-	On a le droit d’écrire un test vert si il exprime une règle métier
+	Objective:
+	Express business rules clearly
+	It is allowed to write a green test if it expresses a business rule
 
 Ex4 Payment Service
 
@@ -50,8 +50,8 @@ Ex4 Payment Service
 	Payment should be sent to the payment gateway.
 	Create a class with the following signature:
 	
-	Objectif :
-	Découvrir le TDD « outside in »
-	« Mocker » des objets
-	« Mocker » le comportement d’objets
-	Vérifier que des méthodes d’objets « mockés » sont appelées.
+	Objective:
+	Discover the TDD "outside in"
+	"Mock" objects
+	"Mock" the behavior of objects
+	Check that methods of mocked objects are called.

@@ -3,7 +3,7 @@ package ex2;
 import org.junit.Assert;
 import org.junit.Test;
 
-
+// 1 3949 100 9 10 2499 500 4 5 1000 400 50
 public class RomanConverterShould {
 
 	RomanConverter roman = new RomanConverter();
@@ -67,5 +67,10 @@ public class RomanConverterShould {
 	public void convert3949_to_MMMCMXLIX() {
 		Assert.assertEquals("MMMCMXLIX", roman.convert(3949));
 	}
-	
+
+	@Test
+	public void convert1903_to_MCMIII() {
+		Assert.assertEquals("MCMIII", roman.convert(1903));
+	}
+
 }
